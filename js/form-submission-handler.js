@@ -84,7 +84,7 @@
         if (thankYouMessage) {
           thankYouMessage.style.display = "block";
           console.log("block");
-          setTimeout(noneDisplay, 3500);
+          setTimeout(noneDisplay, 2000);
         }
       }
     };
@@ -102,7 +102,7 @@
     var sendBtn = document.getElementById("sendBtn");
     thankYouMessage.style.display = "none";
     sendBtn.disabled = false;
-    sendBtn.style.background = "#fe6f21";
+    sendBtn.style.background = "#140150";
   }
   function loaded() {
     // bind to the submit event of our form

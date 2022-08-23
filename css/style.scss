@@ -515,6 +515,22 @@ nav {
     }
   }
 }
+.thankyou_message {
+  // display: none;
+  display: block;
+  // background-color: #140150;
+  text-align: center;
+  /* margin-top: 20px; */
+  color: black;
+  border-radius: 25px;
+  line-height: 40px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 490px;
+  height: 40px;
+}
 #footer {
   border-top: 1px solid #1411506d;
   .footer_icon {
