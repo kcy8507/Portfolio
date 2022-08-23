@@ -501,7 +501,7 @@ nav .menu_contact .menu_icon svg {
 }
 #connect .inner .connect_email-container .connect_form .thankyou_message {
   display: none;
-  background: linear-gradient(to top, #ff0000 40%, transparent 40%);
+  background: linear-gradient(to top, rgba(255, 99, 99, 0.3098039216) 40%, transparent 0%);
   text-align: center;
   /* margin-top: 20px; */
   color: black;
