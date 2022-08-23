@@ -713,6 +713,7 @@ nav .menu_contact .menu_icon svg {
   nav .menu_list a {
     font-size: 8rem;
     line-height: 10rem;
+    margin-bottom: 30%;
   }
   nav .menu_contact {
     bottom: 2rem;
