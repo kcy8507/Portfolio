@@ -38,7 +38,7 @@ body {
 }
 
 #about {
-  background: url(../img/bg.png);
+  // background: url(../img/bg.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -288,6 +288,7 @@ nav {
   margin: auto;
 }
 #history {
+  background-color: #f9f9f9;
   .inner {
     padding: 10rem 0;
   }
@@ -323,7 +324,6 @@ nav {
 }
 
 #portfolio {
-  background-color: #f9f9f9;
   .inner {
     padding: 11rem 0;
     .portfolio_text-container {

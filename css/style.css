@@ -36,7 +36,6 @@ body::-webkit-scrollbar-track {
 }
 
 #about {
-  background: url(../img/bg.png);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -297,6 +296,9 @@ nav .menu_contact .menu_icon svg {
   margin: auto;
 }
 
+#history {
+  background-color: #f9f9f9;
+}
 #history .inner {
   padding: 10rem 0;
 }
@@ -328,9 +330,6 @@ nav .menu_contact .menu_icon svg {
   display: inline-block;
 }
 
-#portfolio {
-  background-color: #f9f9f9;
-}
 #portfolio .inner {
   padding: 11rem 0;
 }
