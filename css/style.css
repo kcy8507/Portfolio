@@ -499,6 +499,17 @@ nav .menu_contact .menu_icon svg {
   margin-top: 4rem;
   align-self: flex-end;
 }
+#connect .inner .connect_email-container .connect_form .thankyou_message {
+  display: none;
+  background: linear-gradient(to top, #ff0000 40%, transparent 40%);
+  text-align: center;
+  /* margin-top: 20px; */
+  color: black;
+  font-size: 3rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
 #connect .inner .connect_email-container .message__box {
   display: flex;
 }
@@ -507,21 +518,6 @@ nav .menu_contact .menu_icon svg {
   height: 16rem;
   background: none;
   margin-top: 2.4rem;
-}
-
-.thankyou_message {
-  display: block;
-  text-align: center;
-  /* margin-top: 20px; */
-  color: black;
-  border-radius: 25px;
-  line-height: 40px;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  width: 490px;
-  height: 40px;
 }
 
 #footer {

@@ -502,6 +502,23 @@ nav {
           margin-top: 4rem;
           align-self: flex-end;
         }
+        .thankyou_message {
+          // transition: all 1s;
+          display: none;
+          background: linear-gradient(to top, #ff0000 40%, transparent 40%);
+          text-align: center;
+          /* margin-top: 20px; */
+          color: black;
+          font-size: 3rem;
+          // color: white;
+          // border-radius: 25px;
+          // line-height: 40px;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%, 50%);
+          // width: 490px;
+          // height: 40px;
+        }
       }
       .message__box {
         display: flex;
@@ -514,22 +531,6 @@ nav {
       }
     }
   }
-}
-.thankyou_message {
-  // display: none;
-  display: block;
-  // background-color: #140150;
-  text-align: center;
-  /* margin-top: 20px; */
-  color: black;
-  border-radius: 25px;
-  line-height: 40px;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  width: 490px;
-  height: 40px;
 }
 #footer {
   border-top: 1px solid #1411506d;
